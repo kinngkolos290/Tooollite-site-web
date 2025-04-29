@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BC-HACTOOLKITS</title>
+  <link rel="icon" href="https://files.catbox.moe/olun93.jpeg" type="image/jpeg">
+
+  <!-- Meta -->
+  <meta name="description" content="BC-HACTOOLKITS - Best Hacking & Cracking Tools for 2024. Ethical hacking, cybersecurity, penetration testing tools."/>
+  <meta name="keywords" content="hacking tools, cracking tools, ethical hacking, cybersecurity, penetration testing, best tools 2024"/>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+      color: white;
+    }
+    .glass-box {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .Btn {
+      position: relative;
+      width: 70px;
+      height: 70px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 10px #8b5cf6;
+      transition: 0.4s;
+    }
+    .Btn:hover {
+      box-shadow: 0 0 20px #8b5cf6, 0 0 40px #8b5cf6;
+      background: rgba(139, 92, 246, 0.3);
+    }
+    .text-small {
+      font-size: 0.85rem;
+      text-align: center;
+      margin-top: 8px;
+      color: #d1d5db;
+    }
+    .glass-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      text-align: center;
+      background: linear-gradient(90deg, #8b5cf6, #ec4899);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(10px);
+      border-radius: 1rem;
+      padding: 1rem;
+      width: 140px;
+      text-align: center;
+      transition: 0.4s;
+      box-shadow: 0 0 15px #8b5cf6;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 25px #8b5cf6, 0 0 40px #8b5cf6;
+    }
+    .badge {
+      background-color: #8b5cf6;
+      padding: 4px 8px;
+      border-radius: 0.5rem;
+      color: white;
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body class="h-full m-0 p-0 flex flex-col justify-center items-center">
+
+  <!-- Main Container -->
+  <div class="relative w-[95%] max-w-[450px] h-auto rounded-2xl overflow-hidden p-6 flex flex-col items-center glass-box">
+
+    <!-- Logo -->
+    <img src="https://files.catbox.moe/ionb7o.jpeg" alt="Logo BC-HACTOOLKITS" class="w-24 h-24 rounded-full border-4 border-purple-500 mb-4 shadow-lg">
+
+    <!-- Title -->
+    <h1 class="glass-title">✨ᑲᥴ-һᥲᥴk𝗍᥆᥆ᥣkі𝗍s✨
+    ᑲᥡ sᥙ⍴rᥱmᥱ ძᥱs𝗍rᥙᥴ𝗍᥆r and juice </h1>
+
+    <!-- Buttons -->
+    <div class="flex justify-center space-x-10 mt-6">
+      <!-- Simple Tool Button -->
+      <div class="flex flex-col items-center">
+        <button class="Btn" onclick="playSoundAndRedirect('https://famofc-tool.vercel.app/')">
+          <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" alt="Simple Tool" width="35px">
+        </button>
+        <div class="text-small">Simple Tool</div>
+      </div>
+
+      <!-- VIP Tool Button -->
+      <div class="flex flex-col items-center">
+        <button class="Btn" onclick="playSoundAndRedirect('https://fam-official.serv00.net/')">
+          <img src="https://cdn-icons-png.flaticon.com/512/2583/2583319.png" alt="VIP Tool" width="35px">
+        </button>
+        <div class="text-small">VIP Tool</div>
+      </div>
+
+      <!-- Contact Owner Button -->
+      <div class="flex flex-col items-center">
+        <button class="Btn" onclick="playSoundAndRedirect('https://api.whatsapp.com/send?phone=+50938025349&text=Bonjour+BC+Owner')">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="Contact Owner" width="35px">
+        </button>
+        <div class="text-small">Contact Owner</div>
+      </div>
+    </div>
+
+    <!-- Packages Title -->
+    <div class="glass-title mt-8">Packages</div>
+
+    <!-- Package Cards -->
+    <div class="flex space-x-5 mt-3">
+      <!-- Standard Package -->
+      <div class="card">
+        <div class="badge">Rs 800</div>
+        <div class="mt-3 font-bold">Standard</div>
+        <div class="mt-1 text-sm">1 Mois<br>Tout Service</div>
+      </div>
+
+      <!-- Premium Package -->
+      <div class="card">
+        <div class="badge">Rs 1200</div>
+        <div class="mt-3 font-bold">Premium</div>
+        <div class="mt-1 text-sm">12 Mois<br>Tout Service</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Audio -->
+  <audio id="clickSound" src="button-click-sound.wav"></audio>
+
+  <!-- JavaScript -->
+  <script>
+    function playSoundAndRedirect(url) {
+      const sound = document.getElementById('clickSound');
+      sound.currentTime = 0;
+      sound.play();
+      setTimeout(() => {
+        window.location.href = url;
+      }, 500);
+    }
+  </script>
+
+</body>
+</html>
